@@ -1,6 +1,6 @@
 /* css variables */
 :root{
-    --color-primary:#d73953;
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
@@ -12,7 +12,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body, a{
+body{
+    color: var(--text-color);
+}
+
+a{
     color: var(--text-color);
 }
 
@@ -20,6 +24,10 @@ body, a{
     display: none;
 }
 
-.card-category, .section-tagline{
+.card-category{
+    color: var(--color-primary);
+}
+
+.section-tagline{
     color: var(--color-primary);
 }
