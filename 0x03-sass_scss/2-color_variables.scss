@@ -1,0 +1,14 @@
+/* more colors */
+$txt-color: #3D3D3D;
+$back-color: #6D6D6D;
+
+body{
+    color: $txt-color;
+    background-color: $back-color;
+}
+p{
+    color: $txt-color;
+}
+h2{
+    background-color: $back-color;
+}
